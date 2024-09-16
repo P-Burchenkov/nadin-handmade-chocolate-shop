@@ -1,0 +1,24 @@
+{
+  "MainNav": {
+    "main": {
+      "title": "Головна",
+      "href": "/"
+    },
+    "about": {
+      "title": "Про нас",
+      "href": "/about"
+    },
+    "catalog": {
+      "title": "Каталог",
+      "href": "/catalog"
+    },
+    "blog": {
+      "title": "Блог",
+      "href": "/blog"
+    },
+    "contacts": {
+      "title": "Контакти",
+      "href": "/contacts"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "MainNav": {
+    "main": {
+      "title": "Main",
+      "href": "/"
+    },
+    "about": {
+      "title": "About us",
+      "href": "/about"
+    },
+    "catalog": {
+      "title": "Catalog",
+      "href": "/catalog"
+    },
+    "blog": {
+      "title": "Blog",
+      "href": "/blog"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "href": "/contacts"
+    }
+  }
+}
