@@ -1,15 +1,28 @@
 @tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-[32px] font-semibold tracking-wider;
+  }
+  h2 {
+    @apply text-2xl font-semibold tracking-wider;
+  }
+  h3 {
+    @apply text-xl font-semibold tracking-wider;
+  }
+  h4 {
+    @apply text-lg font-medium tracking-wider;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
 
-*,
-::before,
-::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+button:disabled {
+  cursor: not-allowed;
 }
 
-body {
-  background-color: #feffd7;
+button:hover,
+a:hover {
+  cursor: pointer;
 }

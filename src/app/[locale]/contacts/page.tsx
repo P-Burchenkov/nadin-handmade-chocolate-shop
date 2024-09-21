@@ -1,4 +1,3 @@
-import Container from '@/components/Container';
 import React from 'react';
 
 export interface ContactsPageProps {
@@ -6,9 +5,5 @@ export interface ContactsPageProps {
 }
 
 export default function ContactsPage({}: ContactsPageProps) {
-  return (
-    <Container>
-      <div>Contacts Page</div>
-    </Container>
-  );
+  return <div className="container">Contacts Page</div>;
 }

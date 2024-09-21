@@ -1,9 +1,13 @@
-import Container from '@/components/Container';
+import AboutSection from '@/components/AboutSection';
+import Hero from '@/components/Hero';
+import PopularSection from '@/components/PopularSection';
 
 export default async function Home() {
   return (
-    <Container>
-      <h1>Home Page</h1>
-    </Container>
+    <>
+      <Hero />
+      <PopularSection />
+      <AboutSection />
+    </>
   );
 }

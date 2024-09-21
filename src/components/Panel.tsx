@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from './Container';
 
 import Instagram from '../../public/icons/instagram.svg';
 import Facebook from '../../public/icons/facebook.svg';
@@ -16,7 +15,7 @@ export interface PanelProps {
 export default function Panel({ locale }: PanelProps) {
   return (
     <div className=" py-[10px] bg-[#47231E]">
-      <Container classname="flex justify-between ">
+      <div className="container flex justify-between">
         <div className="flex gap-8 items-center">
           <LangugeSwitcher locale={locale} />
           <a href="#">
@@ -31,13 +30,17 @@ export default function Panel({ locale }: PanelProps) {
             <Heart width={40} height={40} />
           </a>
           <a href="#">
-            <Bag width={40} height={40} />
+            <Bag
+              width={40}
+              height={40}
+              className="fill-transparent stroke-yellow stroke-2"
+            />
           </a>
           <a href="#">
             <Login width={40} height={40} />
           </a>
         </div>
-      </Container>
+      </div>
     </div>
   );
 }

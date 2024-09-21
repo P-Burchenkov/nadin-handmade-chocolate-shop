@@ -2,6 +2,30 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
+    screens: {
+      mob: '576px',
+      // => @media (min-width: 576px) { ... }
+
+      tab: '960px',
+      // => @media (min-width: 960px) { ... }
+
+      desk: '1440px',
+      // => @media (min-width: 1440px) { ... }
+    },
+    fontWeight: {
+      regular: '400',
+      medium: '500',
+      semibold: '600',
+    },
+    container: {
+      center: true,
+      padding: {
+        mob: '',
+        tab: '',
+        desk: '120px',
+      },
+    },
+
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -15,7 +39,18 @@ module.exports = {
       darkYellow: '#FDFFBE',
       darkBrown: '#47231E',
     },
-    extend: {},
+    boxShadow: {
+      basic: '0px 4px 5px 0px rgba(0, 0, 0, 0.25);',
+    },
+    extend: {
+      fontFamily: {
+        raleway: ['var(--font-raleway)'],
+        allison: ['var(--font-allison)'],
+      },
+      backgroundImage: {
+        hero: "url('/images/hero.jpg')",
+      },
+    },
   },
   plugins: [],
 };

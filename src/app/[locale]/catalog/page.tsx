@@ -1,4 +1,3 @@
-import Container from '@/components/Container';
 import React from 'react';
 
 export interface PageProps {
@@ -6,9 +5,5 @@ export interface PageProps {
 }
 
 export default function Page({}: PageProps) {
-  return (
-    <Container>
-      <div>Catalog Page</div>
-    </Container>
-  );
+  return <div className="container">Catalog Page</div>;
 }
