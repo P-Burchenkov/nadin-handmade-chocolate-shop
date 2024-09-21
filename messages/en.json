@@ -21,6 +21,7 @@
       "href": "/contacts"
     }
   },
+
   "feedbackForm": {
     "title": "Ask quastion",
     "firstname": "First name",
@@ -28,17 +29,22 @@
     "quastion": "Your quastion",
     "send": "send"
   },
+
   "privacy": {
     "payment": { "title": "Payment and delivery", "href": "/payment" },
     "refund": { "title": "Refund", "href": "/refund" },
     "privacy": { "title": "Privacy Policy", "href": "/privacy" }
   },
+
   "hero": {
     "title": "is an online store for sale chocolate and confectionary handmade products.",
     "button": "Order sweets"
   },
+
   "popular": { "title": "Popular sets" },
+
   "cardButton": { "title": "Buy" },
+
   "aboutSection": {
     "title": "About",
     "description": {
@@ -47,5 +53,21 @@
       "paragraf-3": "My beloved wife has been making handmade chocolate products and edible bouquets for several years, and her works are very much liked not only by me personally, but also by many other people. And I had the idea to make the results of her work available to a wide audience. I hope everything will work out for us!!!"
     },
     "caption": "Peter Burchenkov, cofounder"
+  },
+
+  "adavatagesSection": {
+    "title": "Our advantages",
+    "handMade": {
+      "title": "Hand made",
+      "description": "All sweets are made by hand. Each piece of chocolate is created with love and attention to detail, which adds a special value to the product."
+    },
+    "quality": {
+      "title": "High quality ingredients",
+      "description": "For the production of sweets, high-quality natural ingredients are used without the addition of preservatives, artificial flavors and dyes."
+    },
+    "delivery": {
+      "title": "Fast delivery",
+      "description": "Sweets are sent within three days from the moment the order is placed. Orders are delivered by Nova Poshta."
+    }
   }
 }
