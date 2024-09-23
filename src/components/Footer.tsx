@@ -12,24 +12,21 @@ export interface FooterProps {
 
 export default function Footer({}: FooterProps) {
   return (
-    <footer className="px-[120px] py-[52px] bg-brown">
+    <footer className="px-30 py-13 bg-brown">
       <div className="container">
         <div className="flex gap justify-between">
           <div>
             <Logo classname="text-yellow  mb-10" />
-            <SiteNav
-              textColor="text-yellow"
-              classname="flex-col gap-4 text-yellow"
-            />
+            <SiteNav navType="footer" />
           </div>
           <FeedbackForm />
           <div className="flex flex-col justify-between py-6">
             <address>
               <a
                 href="tel:+380671990913"
-                className="text-2xl text-yellow leading-[28px] font-semibold"
+                className="text-2xl not-italic text-yellow leading-[28px] font-semibold"
               >
-                +380671990913
+                +38(067)1990913
               </a>
             </address>
             <PrivacyMenu />

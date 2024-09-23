@@ -15,13 +15,12 @@ export default function ButtonCard({ className, ...rest }: ButtonCardProps) {
 
   return (
     <button
-      disabled
       {...rest}
-      className={`group flex gap-3 justify-center items-center min-w-[108px] px-4 py-2 rounded-xl text-sm leading-4 font-medium  text-yellow   bg-brown hover:bg-darkBrown  focus:bg-darkBrown focus:font-semibold    active:bg-darkBrown ${className ? className : ''}`}
+      className={`group flex gap-3 justify-center items-center min-w-[108px] px-4 py-2 rounded-xl text-sm leading-4 font-medium  text-yellow   bg-brown hover:bg-darkBrown  focus:bg-darkBrown focus:font-semibold    active:bg-darkBrown ${className ? className : ''} disabled:cursor-not-allowed disabled:bg-lightBrown disabled:text-lightYellow`}
     >
       <span>{t('title')}</span>
       <Bag
-        className="stroke-yellow fill-transparent stroke-[2px] group-focus:stroke-[4px]"
+        className="stroke-yellow fill-transparent stroke-[2px] group-focus:stroke-[4px]  "
         width={16}
         height={16}
       />

@@ -8,13 +8,23 @@ export interface SocialMediaProps {
 }
 
 export default function SocialMedia({}: SocialMediaProps) {
+  console.log(typeof Instagram);
+
   return (
     <div className="flex gap-8 items-center">
-      <a href="#">
-        <Instagram width={52} height={52} />
+      <a href="#" className="group">
+        <Instagram
+          width={52}
+          height={52}
+          className="fill-brown stroke-yellow stroke-[2px] group-hover:fill-darkBrown group-hover:stroke-darkYellow group-focus:stroke-darkYellow  "
+        />
       </a>
-      <a href="#">
-        <Facebook width={52} height={52} />
+      <a href="#" className="group">
+        <Facebook
+          width={52}
+          height={52}
+          className="fill-brown stroke-yellow stroke-[2px] group-hover:fill-darkBrown group-hover:stroke-darkYellow group-focus:stroke-darkYellow  "
+        />
       </a>
     </div>
   );

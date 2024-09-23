@@ -71,11 +71,11 @@ export default function PopularSection({}: PopularSectionProps) {
   const t = useTranslations('popular');
 
   return (
-    <section className="container py-[52px]">
-      <h2 className="mb-[52px] text-2xl leading-[28px] font-semibold text-grey text-center">
+    <section className="container py-13">
+      <h2 className="mb-13 text-2xl leading-[28px] font-semibold text-grey text-center">
         {t('title')}
       </h2>
-      <ul className="flex flex-wrap gap-x-[20px] gap-y-6  ">
+      <ul className="flex flex-wrap gap-5 gap-y-6  ">
         {products.map((product) => {
           return <ProductCard key={product.title} product={product} />;
         })}

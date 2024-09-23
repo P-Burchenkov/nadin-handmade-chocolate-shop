@@ -39,7 +39,10 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${raleWay.variable} ${allison.variable}`}>
+    <html
+      lang={locale}
+      className={`${raleWay.variable} ${allison.variable} bg-yellow tracking-wider  font-regular`}
+    >
       <body className={`font-raleway bg-yellow flex flex-col min-h-screen`}>
         <NextIntlClientProvider messages={messages}>
           <Header locale={locale} />

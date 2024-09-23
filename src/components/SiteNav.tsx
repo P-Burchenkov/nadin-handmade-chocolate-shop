@@ -7,32 +7,29 @@ import { Link, usePathname } from '@/i18n/routing';
 
 export interface SiteNavProps {
   classname?: string;
-  textColor: string;
-  accentColor?: string;
+  navType: 'header' | 'footer';
 }
 
-export default function SiteNav({
-  classname,
-  textColor,
-  accentColor,
-}: SiteNavProps) {
+export default function SiteNav({ navType }: SiteNavProps) {
   const t = useTranslations('MainNav');
   const keys = ['main', 'catalog', 'about', 'blog', 'contacts'] as const;
 
   const path = usePathname();
 
   return (
-    <ul className={`flex gap-10 ${classname}`}>
+    <ul
+      className={`flex ${navType === 'header' ? 'gap-10' : 'gap-6 flex-col'} `}
+    >
       {keys.map((key) => {
         return (
           <li key={key}>
             <Link
               href={t(`${key}.href`)}
               className={clsx(
-                'text-xl  font-medium leading-6 tracking-wide',
+                `${navType === 'header' ? 'text-xl' : 'text-lg text-yellow'} font-medium leading-6 tracking-wide`,
                 path === t(`${key}.href`)
-                  ? `${accentColor} underline`
-                  : `${textColor}`,
+                  ? `${navType === 'header' && 'text-green'} underline`
+                  : ``,
               )}
             >
               {t(`${key}.title`)}

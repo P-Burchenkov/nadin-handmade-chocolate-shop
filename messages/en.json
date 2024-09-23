@@ -69,5 +69,8 @@
       "title": "Fast delivery",
       "description": "Sweets are sent within three days from the moment the order is placed. Orders are delivered by Nova Poshta."
     }
+  },
+  "reviewsSection": {
+    "title": "Customer reviews"
   }
 }

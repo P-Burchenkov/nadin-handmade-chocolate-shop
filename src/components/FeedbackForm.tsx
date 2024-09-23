@@ -44,7 +44,9 @@ export default function FeedbackForm({}: FeedbackFormProps) {
           />
         </label>
       </div>
-      <ButtonForm theme="light">{t('send')}</ButtonForm>
+      <ButtonForm disabled theme="light">
+        {t('send')}
+      </ButtonForm>
     </form>
   );
 }

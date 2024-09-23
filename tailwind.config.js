@@ -38,6 +38,7 @@ module.exports = {
       lightBrown: '#D7B7B2',
       darkYellow: '#FDFFBE',
       darkBrown: '#47231E',
+      pink: 'FF9090',
     },
     boxShadow: {
       basic: '0px 4px 5px 0px rgba(0, 0, 0, 0.25);',
@@ -49,6 +50,11 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url('/images/hero.jpg')",
+      },
+      spacing: {
+        30: '120px',
+        13: '52px',
+        36: '36em',
       },
     },
   },

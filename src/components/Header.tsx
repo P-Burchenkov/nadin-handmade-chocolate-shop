@@ -17,7 +17,7 @@ export default function Header({ locale }: HeaderProps) {
       <div className="container flex justify-between items-center py-[22px]">
         <Logo />
         <nav>
-          <SiteNav textColor="text-gray" accentColor="text-green" />
+          <SiteNav navType="header" />
         </nav>
         <a
           href="tel:+380671990913"

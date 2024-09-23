@@ -32,9 +32,21 @@ export default function LangugeSwitcher({ locale }: LangugeSwitcherProps) {
   };
 
   return (
-    <button type="button" onClick={changeLanguage}>
-      {locale === 'en' && <En width={40} height={40} />}
-      {locale === 'ua' && <Ua width={40} height={40} />}{' '}
+    <button type="button" onClick={changeLanguage} className="group">
+      {locale === 'en' && (
+        <En
+          width={40}
+          height={40}
+          className="fill-brown stroke-yellow stroke-[2px] group-hover:fill-darkBrown group-hover:stroke-darkYellow group-focus:stroke-darkYellow  group-focus:fill-darkBrown"
+        />
+      )}
+      {locale === 'ua' && (
+        <Ua
+          width={40}
+          height={40}
+          className="fill-brown stroke-yellow stroke-[2px] group-hover:fill-darkBrown group-hover:stroke-darkYellow group-focus:stroke-darkYellow  group-focus:fill-darkBrown"
+        />
+      )}{' '}
     </button>
   );
 }

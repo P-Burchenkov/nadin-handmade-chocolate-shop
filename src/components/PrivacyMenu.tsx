@@ -23,7 +23,7 @@ export default function PrivacyMenu({ classname }: PrivacyMenuProps) {
             <Link
               href={t(`${key}.href`)}
               className={clsx(
-                'text-xl text-yellow font-medium leading-6 tracking-wide',
+                'text-yellow text-[18px] font-medium leading-6 tracking-normal',
                 path === t(`${key}.href`) ? 'underline' : '',
               )}
             >
