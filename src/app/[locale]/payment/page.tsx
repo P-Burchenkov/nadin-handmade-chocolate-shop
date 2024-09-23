@@ -1,9 +1,3 @@
-import React from 'react';
-
-export interface PaymentPageProps {
-  classname?: string;
-}
-
-export default function PaymentPage({}: PaymentPageProps) {
+export default function PaymentPage() {
   return <div className="container">PaymentPage</div>;
 }

@@ -1,9 +1,3 @@
-import React from 'react';
-
-export interface PageProps {
-  classname?: string;
-}
-
-export default function Page({}: PageProps) {
+export default function Page() {
   return <div className="container">About</div>;
 }

@@ -1,9 +1,3 @@
-import React from 'react';
-
-export interface ContactsPageProps {
-  classname?: string;
-}
-
-export default function ContactsPage({}: ContactsPageProps) {
+export default function ContactsPage() {
   return <div className="container">Contacts Page</div>;
 }

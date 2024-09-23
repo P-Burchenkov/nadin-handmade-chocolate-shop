@@ -1,9 +1,3 @@
-import React from 'react';
-
-export interface BlogPageProps {
-  classname?: string;
-}
-
-export default function BlogPage({}: BlogPageProps) {
+export default function BlogPage() {
   return <div className="container">Blog Page</div>;
 }

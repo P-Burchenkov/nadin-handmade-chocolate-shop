@@ -1,9 +1,3 @@
-import React from 'react';
-
-export interface RefundPageProps {
-  classname?: string;
-}
-
-export default function RefundPage({}: RefundPageProps) {
+export default function RefundPage() {
   return <div className="container">RefundPage</div>;
 }
