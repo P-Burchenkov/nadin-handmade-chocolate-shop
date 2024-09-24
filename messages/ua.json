@@ -73,5 +73,9 @@
 
   "reviewsSection": {
     "title": "Відгуки"
+  },
+
+  "catalogPage": {
+    "title": "Каталог"
   }
 }
