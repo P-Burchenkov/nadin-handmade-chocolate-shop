@@ -2,8 +2,6 @@ import SideBar from '@/components/SideBar';
 import React, { ReactNode } from 'react';
 
 export interface CatalogLayoutProps {
-  classname?: string;
-
   children: ReactNode;
 }
 
