@@ -3,42 +3,291 @@ import { Category } from '@/components/CategoryCard';
 export const catgories: Category[] = [
   {
     title: 'Шоколад / набори',
-    path: 'chocolate',
+    path: '/catalog/chocolate',
     image: '/images/product.jpg',
+    products: [
+      {
+        title: 'Набір "Серце"',
+        description:
+          'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+        price: '1200 грн.',
+        image: '/images/product.jpg',
+      },
+      {
+        title: 'Набір "Серце"',
+        description:
+          'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+        price: '1200 грн.',
+        image: '/images/product.jpg',
+      },
+      {
+        title: 'Набір "Серце"',
+        description:
+          'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+        price: '1200 грн.',
+        image: '/images/product.jpg',
+      },
+      {
+        title: 'Набір "Серце"',
+        description:
+          'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+        price: '1200 грн.',
+        image: '/images/product.jpg',
+      },
+      {
+        title: 'Набір "Серце"',
+        description:
+          'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+        price: '1200 грн.',
+        image: '/images/product.jpg',
+      },
+      {
+        title: 'Набір "Серце"',
+        description:
+          'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+        price: '1200 грн.',
+        image: '/images/product.jpg',
+      },
+      {
+        title: 'Набір "Серце"',
+        description:
+          'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+        price: '1200 грн.',
+        image: '/images/product.jpg',
+      },
+      {
+        title: 'Набір "Серце"',
+        description:
+          'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+        price: '1200 грн.',
+        image: '/images/product.jpg',
+      },
+    ],
   },
   {
-    title: 'Шоколад / набори',
-    path: 'chocolate',
+    title: 'Святкові набори',
+    path: '/catalog/holidaySets',
     image: '/images/product.jpg',
+    subCategories: [
+      {
+        title: 'Новий Рік',
+        path: '/catalog/holidaySets/newYer',
+        image: '/images/product.jpg',
+        products: [
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+        ],
+      },
+      {
+        title: '8 березня',
+        path: '/catalog/holidaySets/8march',
+        image: '/images/product.jpg',
+        products: [
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+        ],
+      },
+      {
+        title: 'До дня закоханих',
+        path: '/catalog/holidaySets/valentineDay',
+        image: '/images/product.jpg',
+        products: [
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+          {
+            title: 'Набір "Серце"',
+            description:
+              'Набір цукерок з бельгійського шоколаду з додаванням сублімованої малини',
+            price: '1200 грн.',
+            image: '/images/product.jpg',
+          },
+        ],
+      },
+    ],
   },
   {
     title: 'Патріотичні набори',
-    path: 'chocolate',
+    path: '/catalog/patriotic',
     image: '/images/product.jpg',
   },
   {
     title: 'Букети',
-    path: 'chocolate',
+    path: '/catalog/buckets',
     image: '/images/product.jpg',
   },
   {
     title: 'Чоловічі набори',
-    path: 'chocolate',
+    path: '/catalog/men',
     image: '/images/product.jpg',
   },
   {
     title: 'Для дітей',
-    path: 'chocolate',
+    path: '/catalog/children',
     image: '/images/product.jpg',
   },
   {
     title: 'Для дорослих',
-    path: 'chocolate',
+    path: '/catalog/adult',
     image: '/images/product.jpg',
   },
   {
     title: 'Школа / садок',
-    path: 'chocolate',
+    path: '/catalog/school',
     image: '/images/product.jpg',
   },
 ];
