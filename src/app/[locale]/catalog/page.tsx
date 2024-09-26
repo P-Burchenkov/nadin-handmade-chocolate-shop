@@ -1,9 +1,23 @@
 import { useTranslations } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 
 import { catgories } from '@/data/categoriesData';
 import CategoryCard from '@/components/CategoryCard';
 
-export default function Page() {
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export interface CategoryPageProps {
+  params: { locale: string };
+}
+
+export default function CategoryPage({
+  params: { locale },
+}: CategoryPageProps) {
+  unstable_setRequestLocale(locale);
+
   const t = useTranslations('catalogPage');
 
   return (

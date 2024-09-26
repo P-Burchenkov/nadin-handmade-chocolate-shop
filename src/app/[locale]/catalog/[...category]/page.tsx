@@ -1,19 +1,27 @@
 import React from 'react';
-
-export interface CategoryPageProps {
-  classname?: string;
-  params: {
-    category: string[];
-  };
-}
+import { unstable_setRequestLocale } from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 
 import { catgories } from '@/data/categoriesData';
 import CategoryCard, { Category } from '@/components/CategoryCard';
 import ProductCard from '@/components/ProductCard';
 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export interface CategoryPageProps {
+  params: {
+    category: string[];
+    locale: string;
+  };
+}
+
 export default function CategoryPage({
-  params: { category },
+  params: { category, locale },
 }: CategoryPageProps) {
+  unstable_setRequestLocale(locale);
+
   const currentPath = `/catalog/${category.join('/')}`;
 
   const currentCategory = catgories.find((cat) => {
