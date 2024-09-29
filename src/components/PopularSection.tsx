@@ -8,7 +8,7 @@ export interface PopularSectionProps {
   classname?: string;
 }
 
-const products: Product[] = [
+export const products: Product[] = [
   {
     title: 'Набір "Серце"',
     description:

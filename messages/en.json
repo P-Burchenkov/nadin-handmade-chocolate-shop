@@ -72,5 +72,9 @@
   },
   "reviewsSection": {
     "title": "Customer reviews"
+  },
+
+  "catalogPage": {
+    "title": "Catalog"
   }
 }
